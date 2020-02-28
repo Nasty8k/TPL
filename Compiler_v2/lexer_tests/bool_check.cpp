@@ -23,3 +23,8 @@ TEST_F(TestLexer, lexem_isString) {
     ASSERT_TRUE(obj.isNormalString("'Okey'"))    << "Ok 'String'";
     ASSERT_FALSE(obj.isNormalString("'Okey \n")) << "Bad 'String ";
 }
+
+TEST_F(TestLexer, lexem_isVar) {
+    ASSERT_TRUE(obj.isNormalString("x1"))    << "Ok x1";
+    ASSERT_FALSE(obj.isNormalString("x@$")) << "Bad symbol";
+}
