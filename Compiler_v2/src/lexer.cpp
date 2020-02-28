@@ -250,6 +250,9 @@ string Lexer::searchType(string lex) {
 }
 
 bool Lexer::isNormalVariable(string lex) {
+    for (int i = 1; i < lex.size(); ++i)
+        if (!(is_char(lex[i]) || isdigit(lex[i])))
+            return false;
     return  (!lex.empty() && is_char(lex[0]));
 }
 bool Lexer::isNormalString(string lex) {
