@@ -1,6 +1,4 @@
-print('Input string:) # no string
+print('Input string -_-) # no string
 x = 013
- # make
-lol    _ok
-123x4
-0x15A
+y = 123x4
+bad$var = x+++
