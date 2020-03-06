@@ -1,0 +1,2 @@
+C:\Nasty8k\Other\MinGVforClion\mingw64\bin\ar.exe qc ..\..\..\..\lib\libgtestd.a  CMakeFiles/gtest.dir/src/gtest-all.cc.obj
+C:\Nasty8k\Other\MinGVforClion\mingw64\bin\ranlib.exe ..\..\..\..\lib\libgtestd.a

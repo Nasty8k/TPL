@@ -1,0 +1,2 @@
+C:\Nasty8k\Other\MinGVforClion\mingw64\bin\ar.exe qc libcompiler.a  CMakeFiles/compiler.dir/start.cpp.obj CMakeFiles/compiler.dir/lexer.cpp.obj
+C:\Nasty8k\Other\MinGVforClion\mingw64\bin\ranlib.exe libcompiler.a

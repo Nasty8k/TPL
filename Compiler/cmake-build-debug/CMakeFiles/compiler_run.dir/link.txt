@@ -1,0 +1,3 @@
+C:\Users\User\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.38\bin\cmake\win\bin\cmake.exe -E remove -f CMakeFiles\compiler_run.dir/objects.a
+C:\Nasty8k\Other\MinGVforClion\mingw64\bin\ar.exe cr CMakeFiles\compiler_run.dir/objects.a @CMakeFiles\compiler_run.dir\objects1.rsp
+C:\Nasty8k\Other\MinGVforClion\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\compiler_run.dir/objects.a -Wl,--no-whole-archive  -o compiler_run.exe -Wl,--out-implib,libcompiler_run.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\compiler_run.dir\linklibs.rsp

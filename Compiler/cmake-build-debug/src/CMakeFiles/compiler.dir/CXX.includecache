@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Nasty8k/Project/Compiler/src/lexer.cpp
+stdlib.h
+-
+lexer.h
+C:/Nasty8k/Project/Compiler/src/lexer.h
+
+C:/Nasty8k/Project/Compiler/src/lexer.h
+iostream
+-
+cstring
+-
+fstream
+-
+map
+-
+
+C:/Nasty8k/Project/Compiler/src/start.cpp
+fstream
+-
+start.h
+C:/Nasty8k/Project/Compiler/src/start.h
+
+C:/Nasty8k/Project/Compiler/src/start.h
+iostream
+-
+cstring
+-
+

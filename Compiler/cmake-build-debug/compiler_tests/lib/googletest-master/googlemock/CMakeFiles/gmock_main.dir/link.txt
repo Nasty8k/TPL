@@ -1,0 +1,2 @@
+C:\Nasty8k\Other\MinGVforClion\mingw64\bin\ar.exe qc ..\..\..\..\lib\libgmock_maind.a  CMakeFiles/gmock_main.dir/src/gmock_main.cc.obj
+C:\Nasty8k\Other\MinGVforClion\mingw64\bin\ranlib.exe ..\..\..\..\lib\libgmock_maind.a
